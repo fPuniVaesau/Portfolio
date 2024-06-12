@@ -1,10 +1,12 @@
-import Hero from "./components/HeroComponents/Hero"
+import style from './styles/AppStyles/App.module.css';
+import Hero from './components/HeroComponents/Hero';
+
 export default function App() {
   return (
     <>
-      <Hero />
+      <div className={style.MainContainer}>
+        <Hero />
+      </div>
     </>
-  )
+  );
 }
-
-
