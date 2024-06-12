@@ -1,3 +1,19 @@
-.test{
-  color: red;
+.heroContainer{
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+}
+
+.welcomWrapper{
+  /* border: 1px solid red; */
+  display: flex;
+  gap: .75rem;
+}
+
+.nameRoleWrapper{
+  border: 1px solid green;
+}
+
+.logo{
+  height: 1.25rem;
 }
