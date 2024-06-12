@@ -7,8 +7,8 @@ export default function App() {
       <div className={style.MainContainer}>
         <div className={style.scrollWatcher}></div>
         <Hero />
-        <Hero />
-        <Hero />
+       <p>Section 2</p>
+       <p>Section 3</p>
       </div>
     </>
   );
