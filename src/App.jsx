@@ -6,6 +6,8 @@ export default function App() {
     <>
       <div className={style.MainContainer}>
         <Hero />
+        <Hero />
+        <Hero />
       </div>
     </>
   );
