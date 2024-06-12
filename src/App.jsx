@@ -5,6 +5,7 @@ export default function App() {
   return (
     <>
       <div className={style.MainContainer}>
+        <div className={style.scrollWatcher}></div>
         <Hero />
         <Hero />
         <Hero />

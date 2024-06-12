@@ -14,3 +14,24 @@ img, picture, video, canvas, svg {
 .MainContainer > *{
   height: 100dvh;
 }
+
+.scrollWatcher{
+  position: fixed;
+  height: 10px;
+  top: 0;
+  width: 100%;
+  background-color: orangered ;
+  z-index: 1000;
+  scale: 0 1;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+  transform-origin: left;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+@keyframes scroll-watcher {
+  to{
+    scale: 1 1;
+  }
+}
