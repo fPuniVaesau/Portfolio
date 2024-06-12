@@ -1,10 +1,15 @@
-import styles from "../../styles/HeroStyles/Hero.module.css"
-export default function Hero(){
-
-  return(
+import styles from '../../styles/HeroStyles/Hero.module.css';
+export default function Hero() {
+  return (
     <div>
-      <span className={styles.test}>Hero Section</span>
-      <h3>Filo Vaesau</h3>
+      <div>
+        <img />
+        <span>welcome.</span>
+      </div>
+      <div>
+        <h1>Filo Vaesau</h1>
+        <h2>Digital Craftsman | Developer</h2>
+      </div>
     </div>
-  )
+  );
 }
