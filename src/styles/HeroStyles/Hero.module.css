@@ -2,7 +2,7 @@
   height: 100dvh;
   display: grid;
   place-content: center;
-  background-image: url('https://images.unsplash.com/photo-1710781944947-7cd4a381499f?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-image: url('https://images.unsplash.com/photo-1633294580267-6743bbe90b04?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,10 +14,35 @@
   gap: .75rem;
 }
 
-.nameRoleWrapper{
-  border: 1px solid green;
+.welcome{
+  animation: fadein 5s ease-in-out forwards;
+}
+
+.nameRoleWrapper h1{
+  /* border: 1px solid green; */
+  font-size: 4.15rem;
+  letter-spacing: 1.5px;
+  animation: fadein 7s ease-in-out forwards;
+}
+
+.nameRoleWrapper h2{
+  /* border: 1px solid green; */
+  letter-spacing: 2px;
+  font-weight: 300;
+  animation: fadein 8s ease-in-out forwards;
 }
 
 .logo{
   height: 1.25rem;
+  animation: fadein 4s ease-in-out forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
 }

@@ -6,7 +6,7 @@ export default function Hero() {
     <div className={styles.heroContainer}>
       <div className={styles.welcomWrapper}>
         <img className={styles.logo} src={canoeLogo} />
-        <span>welcome.</span>
+        <span className={styles.welcome}>welcome.</span>
       </div>
       <div className={styles.nameRoleWrapper}>
         <h1>Filo Vaesau</h1>
