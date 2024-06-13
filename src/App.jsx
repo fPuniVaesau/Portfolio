@@ -1,14 +1,16 @@
 import style from './styles/AppStyles/App.module.css';
 import Hero from './components/HeroComponents/Hero';
+import AboutMe from './components/AboutMe/AboutMe';
 
 export default function App() {
   return (
     <>
       <div className={style.MainContainer}>
+
         <div className={style.scrollWatcher}></div>
         <Hero />
-       <p>Section 2</p>
-       <p>Section 3</p>
+        <AboutMe />
+        <h1>testing</h1>
       </div>
     </>
   );
