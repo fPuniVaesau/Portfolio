@@ -5,6 +5,9 @@
   animation-range: entry 0 cover 40%;
 }
 
+.cardWrapper{
+
+}
 .banner {
   border-radius: 10px;
 }
@@ -25,7 +28,12 @@
 }
 
 /* about me section styling */
+.aboutMeContainer{
+  border: 1px solid slateblue;
+}
+
 .aboutMeDiscriptionWrapper{
+  /* border: 1px solid limegreen; */
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
