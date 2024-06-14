@@ -17,6 +17,8 @@
   border: 1px solid rgb(0, 255, 123);
   display: flex;
   flex: 1;
+  margin: auto;
+  gap: 1rem;
 }
 
 .links > *{
@@ -27,6 +29,11 @@
   text-decoration: none;
   color: inherit;
   border-radius: 5px;
+}
+
+.links{
+  margin: auto;
+
 }
 
 .linkTitle{
@@ -54,7 +61,7 @@
 }
 
 .aboutMeDiscriptionWrapper{
-  border: 1px solid rgb(50, 91, 205);
+  /* border: 1px solid rgb(50, 91, 205); */
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
