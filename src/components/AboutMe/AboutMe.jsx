@@ -6,11 +6,11 @@ export default function AboutMe() {
     <div className={style.container}>
       {/* This is the card section */}
       <div className={style.cardWrapper}>
-        <img
+        {/* <img
           className={style.banner}
           src='https://i.pinimg.com/originals/0a/dd/5a/0add5a26394fa458118f96c0bb49e840.gif'
           alt='banner'
-        />
+        /> */}
         <div>
           <img
             className={style.profilePic}

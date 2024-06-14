@@ -3,10 +3,14 @@
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
+
 }
 
 .cardWrapper{
-
+  grid-column: 1/span 3;
 }
 .banner {
   border-radius: 10px;
@@ -16,7 +20,6 @@
   height: 13em;
   width: 13em;
   object-fit: cover;
-  outline: 3px solid rgb(255, 255, 255);
   outline-offset: 3px;
   border-radius: 50rem;
 }
@@ -29,7 +32,8 @@
 
 /* about me section styling */
 .aboutMeContainer{
-  border: 1px solid slateblue;
+  /* border: 1px solid slateblue; */
+  grid-column: 4/span all;
 }
 
 .aboutMeDiscriptionWrapper{
