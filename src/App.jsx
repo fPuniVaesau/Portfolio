@@ -6,11 +6,13 @@ export default function App() {
   return (
     <>
       <div className={style.MainContainer}>
-
         <div className={style.scrollWatcher}></div>
-        <Hero />
-        <AboutMe />
-        <h1>testing</h1>
+        <div>
+          <Hero />
+        </div>
+        <div className={style.AboutMeContainer}>
+          <AboutMe />
+        </div>
       </div>
     </>
   );
