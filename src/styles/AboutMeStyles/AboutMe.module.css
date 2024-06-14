@@ -3,17 +3,34 @@
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 1rem;
-
+  padding: 10px;
 }
 
 .cardWrapper{
-  grid-column: 1/span 3;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
-.banner {
-  border-radius: 10px;
+
+.imageAndLinksWrapper{
+  border: 1px solid rgb(0, 255, 123);
+  display: flex;
+  flex: 1;
+}
+
+.links > *{
+  display: block ;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 5px;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 5px;
+}
+
+.linkTitle{
+  font-family: inherit;
 }
 
 .profilePic {
@@ -33,11 +50,11 @@
 /* about me section styling */
 .aboutMeContainer{
   /* border: 1px solid slateblue; */
-  grid-column: 4/span all;
+  grid-column: 2/span all;
 }
 
 .aboutMeDiscriptionWrapper{
-  /* border: 1px solid limegreen; */
+  border: 1px solid rgb(50, 91, 205);
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
