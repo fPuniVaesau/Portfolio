@@ -21,9 +21,10 @@ export default function AboutMe() {
       </div>
 
       {/* this is the about me section */}
-      <div>
+      <div className={style.aboutMeDiscriptionWrapper}>
+        <h2 className={style.subTitle}>about me.</h2>
         <div>
-          <h3 class='aboutMeInfoTitle'>who am I?</h3>
+          <h3 className={style.aboutMeInfoTitle}>who am I?</h3>
           <p className={style.aboutMeInfo}>
             My name is Filo Vaesau, I come from a small island in the middle of
             the Pacific Ocean, the island of Samoa, I currently reside in
@@ -32,7 +33,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div>
-          <h3 class='aboutMeInfoTitle'>my goals.</h3>
+          <h3 className={style.aboutMeInfoTitle}>my goals.</h3>
           <p className={style.aboutMeInfo}>
             I aim to further my knowledge of the industry and its standards,
             continue to develope my skills and remain agile in my overall
@@ -42,7 +43,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div>
-          <h3 class='aboutMeInfoTitle'>the WHY.</h3>
+          <h3 className={style.aboutMeInfoTitle}>the WHY.</h3>
           <p className={style.aboutMeInfo}>
             To become a <strong>Beacon of light</strong> for the future
             generations of <strong>Polynesians and People of Color</strong> who

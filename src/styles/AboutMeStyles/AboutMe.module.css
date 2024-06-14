@@ -24,6 +24,25 @@
   animation-range: entry 0 cover 40%;
 }
 
+/* about me section styling */
+.aboutMeDiscriptionWrapper{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.subTitle{
+  font-size: 5rem;
+}
+
+.aboutMeInfo{
+  max-width: 30ch;
+}
+
+.aboutMeInfoTitle{
+ margin-bottom: 10px;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
