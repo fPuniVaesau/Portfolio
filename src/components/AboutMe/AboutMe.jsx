@@ -4,7 +4,7 @@ import style from "../../styles/AboutMeStyles/AboutMe.module.css"
 export default function AboutMe(){
   return(
     <>
-      <div>
+      <div className={style.container}>
         <img className={style.profilePic} src={profilePic} alt="profile picture" />
 
         <div>
