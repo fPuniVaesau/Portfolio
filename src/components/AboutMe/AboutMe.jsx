@@ -5,6 +5,7 @@ export default function AboutMe() {
   return (
     <>
       <div className={style.container}>
+
         <div>
           <img
             className={style.profilePic}
@@ -12,6 +13,7 @@ export default function AboutMe() {
             alt='profile picture'
           />
         </div>
+        
       </div>
     </>
   );
