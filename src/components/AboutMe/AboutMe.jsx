@@ -17,14 +17,18 @@ export default function AboutMe() {
           </div>
           {/* links */}
           <div className={style.links}>
-            <a href=''>
+            <a href='https://github.com/fPuniVaesau' target='_blank'>
               <span className={style.linkTitle}>github</span>
             </a>
-            <a href=''>
+            <a href='https://www.linkedin.com/in/filovaesau/' target='_blank'>
               <span className={style.linkTitle}>linkedIn</span>
             </a>
-            <a href=''>
+            <a href='mailto:filopunivaesau@gmail.com'>
               <span className={style.linkTitle}>email</span>
+            </a>
+
+            <a href='#'>
+              <span className={style.linkTitle}>resume</span>
             </a>
           </div>
         </div>
