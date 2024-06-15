@@ -1,6 +1,6 @@
 import style from './styles/AppStyles/App.module.css';
 import Hero from './components/HeroComponents/Hero';
-import AboutMe from './components/AboutMe/AboutMe';
+import MainSection from './components/MainSection/MainSection';
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
           <Hero />
         </div>
         <div className={style.AboutMeContainer}>
-          <AboutMe />
+          <MainSection />
         </div>
       </div>
     </>

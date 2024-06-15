@@ -1,9 +1,11 @@
 .ProfileContainer{
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  display: grid;
+  place-content: center;
 }
 
 .imageAndLinksWrapper{
-  border: 1px solid rgb(0, 255, 123);
+  /* border: 1px solid rgb(0, 255, 123); */
   display: flex;
   margin: auto;
   gap: 1.5rem;

@@ -1,16 +1,9 @@
-import profilePic from '../../images/filovaesau.jpg';
-import Profile from '../Profile/Profile';
-import style from '../../styles/AboutMeStyles/AboutMe.module.css';
+import style from "../../styles/AboutMeSectionStyles/AboutMeSection.module.css"
 
-export default function AboutMe() {
-  return (
-    <div className={style.container}>
-      {/* This is the card section */}
-      <div className={style.cardWrapper}>
-        <Profile profilePicture={profilePic}/>
+export default function AboutMeSection(){
 
-        {/* this is the about me section */}
-        <div className={style.aboutMeContainer}>
+  return(
+    <div className={style.aboutMeContainer}>
           <h2 className={style.subTitle}>about me.</h2>
           <div className={style.aboutMeDiscriptionWrapper}>
             <div>
@@ -46,7 +39,5 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  );
+  )
 }
