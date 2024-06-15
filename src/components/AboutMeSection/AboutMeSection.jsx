@@ -4,6 +4,7 @@ export default function AboutMeSection(){
 
   return(
     <div className={style.aboutMeContainer}>
+      <div className={style.aboutMeWrapper}>
           <h2 className={style.subTitle}>about me.</h2>
           <div className={style.aboutMeDiscriptionWrapper}>
             <div>
@@ -39,5 +40,6 @@ export default function AboutMeSection(){
             </div>
           </div>
         </div>
+    </div>
   )
 }

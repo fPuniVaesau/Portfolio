@@ -1,9 +1,13 @@
 /* about me section styling */
 .aboutMeContainer{
-  /* border: 1px solid slateblue; */
-  grid-column: 2/span all;
-  display: block;
-  padding-left: 5rem ;
+  border: 1px solid navy;
+  display: grid;
+  place-content: center;
+}
+
+.aboutMeWrapper{
+  border: 1px solid slateblue;
+ 
 }
 
 .aboutMeDiscriptionWrapper{
