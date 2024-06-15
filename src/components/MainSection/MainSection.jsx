@@ -1,6 +1,6 @@
 import profilePic from '../../images/filovaesau.jpg';
 import Profile from '../Profile/Profile';
-import style from '../../styles/AboutMeStyles/AboutMe.module.css';
+import style from '../../styles/MainSectionStyles/MainSection.module.css';
 import AboutMeSection from '../AboutMeSection/AboutMeSection';
 
 export default function MainSection() {
