@@ -1,11 +1,14 @@
-export default function Profile(){
+import style from "../../styles/ProfileStyles/Profile.module.css"
+
+export default function Profile({profilePicture}){
   return(
-    <div className={style.imageAndLinksWrapper}>
+    <div className={style.ProfileContainer}>
+      <div className={style.imageAndLinksWrapper}>
           {/* profile image */}
           <div>
             <img
               className={style.profilePic}
-              src={profilePic}
+              src={profilePicture}
               alt='profile picture'
             />
           </div>
@@ -26,5 +29,8 @@ export default function Profile(){
             </a>
           </div>
         </div>
+    </div>
+
+    
   )
 }

@@ -1,4 +1,5 @@
 import profilePic from '../../images/filovaesau.jpg';
+import Profile from '../Profile/Profile';
 import style from '../../styles/AboutMeStyles/AboutMe.module.css';
 
 export default function AboutMe() {
@@ -6,7 +7,7 @@ export default function AboutMe() {
     <div className={style.container}>
       {/* This is the card section */}
       <div className={style.cardWrapper}>
-        
+        <Profile profilePicture={profilePic}/>
 
         {/* this is the about me section */}
         <div className={style.aboutMeContainer}>

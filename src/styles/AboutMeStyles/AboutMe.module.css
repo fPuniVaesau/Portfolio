@@ -16,51 +16,6 @@
   animation-range: entry 0 cover 40%;
 }
 
-.imageAndLinksWrapper{
-  /* border: 1px solid rgb(0, 255, 123); */
-  display: flex;
-  margin: auto;
-  gap: 1.5rem;
-  flex: 1;
-}
-
-.links > *{
-  display: block ;
-  outline: 1px double rgb(144, 144, 144);
-  margin-top: 10px;
-  padding: 5px;
-  text-decoration: none;
-  color: inherit;
-  border-radius: 5px;
-  transition: .3s ease-in-out;
-  text-align: center;
-  font-weight: 500;
-}
-
-.links{
-  margin: auto;
-  width: 12rem;
-}
-
-.links > *:hover{
-  background-color: rgb(152, 134, 112);
-  letter-spacing: 3px;
-  color: whitesmoke;
-  outline-offset: 3px;
-}
-
-.linkTitle{
-  font-family: inherit;
-}
-
-.profilePic {
-  height: 13em;
-  width: 13em;
-  object-fit: cover;
-  outline-offset: 3px;
-  border-radius: 50rem;
-  outline: 1px solid black;
-}
 
 .reveal {
   animation: appear linear;
