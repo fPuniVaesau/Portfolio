@@ -1,12 +1,15 @@
 .container {
-  /* border: 1px solid orangered; */
-  /* animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0 cover 40%; */
+  border: 1px solid orangered;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   padding: 10px;
+  gap: 1rem;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
 }
 
-.cardWrapper{
+/* .cardWrapper{
   border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -14,8 +17,18 @@
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+} */
+
+.componentOne{
+  /* border: 1px solid purple; */
+  grid-column: 1/span 2;
+  align-self: center;
 }
 
+.componentTwo{
+  /* border: 1px tomato; */
+  grid-column: 3/span 5;
+}
 
 .reveal {
   animation: appear linear;

@@ -6,11 +6,14 @@ import AboutMeSection from '../AboutMeSection/AboutMeSection';
 export default function MainSection() {
   return (
     <div className={style.container}>
-      {/* This is the card section */}
-      <div className={style.cardWrapper}>
+      <div className={style.componentOne}>
         <Profile profilePicture={profilePic} />
+      </div>
+      <div className={style.componentTwo}>
         <AboutMeSection />
       </div>
+      {/* This is the card section */}
+      {/* <div className={style.cardWrapper}></div> */}
     </div>
   );
 }

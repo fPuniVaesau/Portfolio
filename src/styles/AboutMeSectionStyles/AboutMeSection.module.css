@@ -1,14 +1,13 @@
 /* about me section styling */
 .aboutMeContainer{
-  border: 1px solid navy;
+  /* border: 1px solid navy; */
   display: grid;
   place-content: center;
 }
 
-.aboutMeWrapper{
+/* .aboutMeWrapper{
   border: 1px solid slateblue;
- 
-}
+} */
 
 .aboutMeDiscriptionWrapper{
   /* border: 1px solid rgb(50, 91, 205); */
