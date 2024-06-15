@@ -1,24 +1,27 @@
 .container {
   border: 1px solid orangered;
-  animation: appear linear;
+  /* animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0 cover 40%;
+  animation-range: entry 0 cover 40%; */
   padding: 10px;
 }
 
 .cardWrapper{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
 }
 
 .imageAndLinksWrapper{
-  border: 1px solid rgb(0, 255, 123);
+  /* border: 1px solid rgb(0, 255, 123); */
   display: flex;
-  flex: 1;
   margin: auto;
-  gap: 1rem;
+  gap: 1.5rem;
+  flex: 1;
 }
 
 .links > *{
@@ -33,7 +36,11 @@
 
 .links{
   margin: auto;
+  width: 12rem;
+}
 
+.links > *:hover{
+  background-color: rebeccapurple;
 }
 
 .linkTitle{
@@ -58,6 +65,8 @@
 .aboutMeContainer{
   /* border: 1px solid slateblue; */
   grid-column: 2/span all;
+  display: block;
+  padding-left: 5rem ;
 }
 
 .aboutMeDiscriptionWrapper{
@@ -69,6 +78,7 @@
 
 .subTitle{
   font-size: 5rem;
+  /* margin-bottom: 10px; */
 }
 
 .aboutMeInfo{
