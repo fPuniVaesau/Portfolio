@@ -1,31 +1,31 @@
 /* about me section styling */
-.aboutMeContainer{
+.aboutMeContainer {
   /* border: 1px solid navy; */
   display: grid;
   place-content: center;
 }
 
-/* .aboutMeWrapper{
+/* .aboutMeWrapper {
   border: 1px solid slateblue;
 } */
 
-.aboutMeDiscriptionWrapper{
+.aboutMeDiscriptionWrapper {
   /* border: 1px solid rgb(50, 91, 205); */
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
 
-.subTitle{
+.subTitle {
   font-size: 5rem;
   margin-bottom: 5px;
 }
 
-.aboutMeInfo{
+.aboutMeInfo {
   max-width: 30ch;
   line-height: 1.15;
 }
 
-.aboutMeInfoTitle{
- margin-bottom: 10px;
+.aboutMeInfoTitle {
+  margin-bottom: 10px;
 }
